@@ -62,3 +62,17 @@
     background-color: #bbb;
     width: 1080px;
   }
+  .list {
+    list-style-image: url('https://icons.iconarchive.com/icons/papirus-team/papirus-apps/16/chromium-app-list-icon.png');
+  }
+  .container1{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  }
+  .card{
+    background-color: #bbb;
+    width: 400px;
+    box-shadow: 5px 3px black;
+  }
